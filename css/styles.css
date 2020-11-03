@@ -5473,7 +5473,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #F7F4E9;
+  background-color: #DEC79B;
   color: #000;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -5912,7 +5912,7 @@ a.close.disabled {
   align-items: center;
   justify-content: center;
   width: 15%;
-  color: #fff;
+  color: #000;
   text-align: center;
   opacity: 0.5;
   transition: opacity 0.15s ease;
@@ -9866,7 +9866,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #c4cdd5 !important;
 }
 
 .text-black-50 {

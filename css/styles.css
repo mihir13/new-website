@@ -10024,6 +10024,11 @@ p {
   margin-bottom: 4rem;
 }
 
+.main-header {
+  border-bottom: 3px solid #DEC79B;
+  padding-bottom: 6px;
+}
+
 @media (min-width: 576px) {
   .main-header {
     border-bottom: 3px solid #DEC79B;

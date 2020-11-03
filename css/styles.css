@@ -474,8 +474,13 @@ mark,
 }
 
 .img-fluid {
-  height: 130px;
-  border: 5px solid #D8D8D8
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-pic {
+  height: 50px;
+  border: 5px solid #D8D8D8;
 }
 
 .img-thumbnail {
@@ -10027,16 +10032,17 @@ p {
 .main-header {
   border-bottom: 3px solid #DEC79B;
   padding-bottom: 6px;
+  margin-left: 10px
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .main-header {
     border-bottom: 3px solid #DEC79B;
     padding-bottom: 6px;
     margin-left: 10px;
 
   }
-}
+} */
 
 @media (min-width: 768px) {
   section {
@@ -10449,14 +10455,14 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 576px) {
-  .img-fluid {
+  .profile-pic  {
     height: 50px;
     border: 5px solid #D8D8D8;
     margin-left: 15px
   }
 }
 @media (min-width: 768px) {
-  .img-fluid {
+  .profile-pic  {
     height: 130px;
     border: 5px solid #D8D8D8;
     margin-left: 15p
